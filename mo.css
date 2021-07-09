@@ -1,0 +1,291 @@
+/* input[id*="popup"] + label {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);} 예제파일 확인시 가운데 정렬 스타일 - 삭제 후 사용하세요 */
+* {padding:0;margin:0;line-height:1;} /* 기본 브라우저 리셋 스타일 */
+		
+input[id*="police"] {display:none;}
+input[id*="police"] + label {cursor: pointer;display:inline-block;padding:20px;background:#0080ff;color:#ffffff; position: fixed; border-radius: 100%; left: 30%; top: 72.5%;  transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+input[id*="police"] + label + div {position:fixed;top:0;left:0;width:100%;height:100%;z-index:100;}
+input[id*="police"] + label + div > div {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:900px;height:700px;background:#fff;z-index:2;}
+input[id*="police"] + label + div > div > label {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#03a6ff;border-radius:100%;z-index:999;}
+input[id*="police"] + label + div > label {position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.9);z-index:1;} 
+/*
+input[id*="popup"] + label + div {display:none;}
+input[id*="popup"]:checked + label + div {display:block;}
+*/
+
+input[id*="police"] + label + div {opacity:0;visibility:hidden;transition:all 0s;}
+input[id*="police"]:checked + label + div {opacity:1;visibility:visible;}
+
+input[id*="police"] + label:hover {cursor: pointer;display:inline-block;padding:20px;background:#a3daff;color:#ffffff; position: fixed; border-radius: 100%; left: 30%; top: 72.5%;  transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+input[id*="police"] + label + div > div > label:hover {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#a3daff;border-radius:100%;z-index:999;}
+
+
+
+*{padding:0;margin:0;line-height:1;} /* 기본 브라우저 리셋 스타일 */
+		
+
+
+
+
+* {padding:0;margin:0;line-height:1;} /* 기본 브라우저 리셋 스타일 */
+    
+input[id*="park"] {display:none;}
+input[id*="park"] + label {cursor: pointer;display:inline-block;padding:20px;background:#0080ff;color:#ffffff; position: fixed; border-radius: 100%; left: 72.5%; top: 50%; transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+input[id*="park"] + label + div {position:fixed;top:0;left:0;width:100%;height:100%;z-index:100;}
+input[id*="park"] + label + div > div {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:900px;height:700px;background:#fff;z-index:2;}
+input[id*="park"] + label + div > div > label {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#03a6ff;border-radius:100%;z-index:999;}
+input[id*="park"] + label + div > label {position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.9);z-index:1;}
+/*
+input[id*="popup"] + label + div {display:none;}
+input[id*="popup"]:checked + label + div {display:block;}
+*/
+
+input[id*="park"] + label + div {opacity:0;visibility:hidden;transition:all 0s;}
+input[id*="park"]:checked + label + div {opacity:1;visibility:visible;}
+
+
+input[id*="park"] + label:hover {cursor: pointer;display:inline-block;padding:20px;background:#a3daff;color:#ffffff; position: fixed; border-radius: 100%; left: 72.5%; top: 50%;  transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+input[id*="park"] + label + div > div > label:hover {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#a3daff;border-radius:100%;z-index:999;}
+
+
+* {padding:0;margin:0;line-height:1;} /* 기본 브라우저 리셋 스타일 */
+    
+input[id*="parking"] {display:none;}
+input[id*="parking"] + label {cursor: pointer;display:inline-block;padding:20px;background:#0080ff;color:#ffffff; position: fixed; border-radius: 100%; left: 38%; top: 87%; transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+input[id*="parking"] + label + div {position:fixed;top:0;left:0;width:100%;height:100%;z-index:100;}
+input[id*="parking"] + label + div > div {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:900px;height:700px;background:#fff;z-index:2;}
+input[id*="parking"] + label + div > div > label {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#03a6ff;border-radius:100%;z-index:999;}
+input[id*="parking"] + label + div > label {position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.9);z-index:1;}
+/*
+input[id*="popup"] + label + div {display:none;}
+input[id*="popup"]:checked + label + div {display:block;}
+*/
+
+input[id*="parking"] + label + div {opacity:0;visibility:hidden;transition:all 0s;}
+input[id*="parking"]:checked + label + div {opacity:1;visibility:visible;}
+
+input[id*="parking"] + label:hover {cursor: pointer;display:inline-block;padding:20px;background:#a3daff;color:#ffffff; position: fixed; border-radius: 100%; left: 38%; top: 87%;  transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+input[id*="parking"] + label + div > div > label:hover {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#a3daff;border-radius:100%;z-index:999;}
+
+* {padding:0;margin:0;line-height:1;} /* 기본 브라우저 리셋 스타일 */
+		
+input[id*="gu"] {display:none;}
+input[id*="gu"] + label {cursor: pointer;display:inline-block;padding:20px;background:#0080ff;color:#ffffff; position: fixed; border-radius: 100%; left: 38%; top: 16%; transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+input[id*="gu"] + label + div {position:fixed;top:0;left:0;width:100%;height:100%;z-index:100;}
+input[id*="gu"] + label + div > div {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:900px;height:700px;background:#fff;z-index:2;}
+input[id*="gu"] + label + div > div > label {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#03a6ff;border-radius:100%;z-index:999;}
+input[id*="gu"] + label + div > label {position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.9);z-index:1;}
+/*
+input[id*="popup"] + label + div {display:none;}
+input[id*="popup"]:checked + label + div {display:block;}
+*/
+
+input[id*="gu"] + label + div {opacity:0;visibility:hidden;transition:all 0s;}
+input[id*="gu"]:checked + label + div {opacity:1;visibility:visible;}
+
+input[id*="gu"] + label:hover {cursor: pointer;display:inline-block;padding:20px;background:#a3daff;color:#ffffff; position: fixed; border-radius: 100%; left: 38%; top: 16%;  transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+input[id*="gu"] + label + div > div > label:hover {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#a3daff;border-radius:100%;z-index:999;}
+
+
+* {padding:0;margin:0;line-height:1;} /* 기본 브라우저 리셋 스타일 */
+    
+input[id*="tolet"] {display:none;}
+input[id*="tolet"] + label {cursor: pointer;display:inline-block;padding:20px;background:#0080ff;color:#ffffff; position: fixed; border-radius: 100%; left: 62%; top: 16%; transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+input[id*="tolet"] + label + div {position:fixed;top:0;left:0;width:100%;height:100%;z-index:100;}
+input[id*="tolet"] + label + div > div {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:900px;height:700px;background:#fff;z-index:2;}
+input[id*="tolet"] + label + div > div > label {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#03a6ff;border-radius:100%;z-index:999;}
+input[id*="tolet"] + label + div > label {position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.9);z-index:1;}
+/*
+input[id*="popup"] + label + div {display:none;}
+input[id*="popup"]:checked + label + div {display:block;}
+*/
+
+input[id*="tolet"] + label + div {opacity:0;visibility:hidden;transition:all 0s;}
+input[id*="tolet"]:checked + label + div {opacity:1;visibility:visible;} 
+
+input[id*="tolet"] + label:hover {cursor: pointer;display:inline-block;padding:20px;background:#a3daff;color:#ffffff; position: fixed; border-radius: 100%; left: 62%; top: 16%;  transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+input[id*="tolet"] + label + div > div > label:hover {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#a3daff;border-radius:100%;z-index:999;}
+
+* {padding:0;margin:0;line-height:1;} /* 기본 브라우저 리셋 스타일 */
+    
+input[id*="hospital"] {display:none;}
+input[id*="hospital"] + label {cursor: pointer;display:inline-block;padding:20px;background:#0080ff;color:#ffffff; position: fixed; border-radius: 100%;   left: 50%; top: 10%; transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+input[id*="hospital"] + label + div {position:fixed;top:0;left:0;width:100%;height:100%;z-index:100;}
+input[id*="hospital"] + label + div > div {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:900px;height:700px;background:#fff;z-index:2;}
+input[id*="hospital"] + label + div > div > label {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#03a6ff;border-radius:100%;z-index:999;}
+input[id*="hospital"] + label + div > label {position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.9);z-index:1;}
+/*
+input[id*="popup"] + label + div {display:none;}
+input[id*="popup"]:checked + label + div {display:block;}
+*/
+
+input[id*="hospital"] + label + div {opacity:0;visibility:hidden;transition:all 0s;}
+input[id*="hospital"]:checked + label + div {opacity:1;visibility:visible;}
+
+input[id*="hospital"] + label:hover {cursor: pointer;display:inline-block;padding:20px;background:#a3daff;color:#ffffff; position: fixed; border-radius: 100%; left: 50%; top: 10%;  transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+input[id*="hospital"] + label + div > div > label:hover {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#a3daff;border-radius:100%;z-index:999;}
+
+
+* {padding:0;margin:0;line-height:1;} /* 기본 브라우저 리셋 스타일 */
+    
+input[id*="juyuso"] {display:none;}
+input[id*="juyuso"] + label {cursor: pointer;display:inline-block;padding:20px;background:#0080ff;color:#ffffff; position: fixed; border-radius: 100%; left: 65%; top: 75%; transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+input[id*="juyuso"] + label + div > div {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:900px;height:700px;background:#fff;z-index:2;}
+input[id*="juyuso"] + label + div > div > label {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#03a6ff;border-radius:100%;z-index:999;}
+input[id*="juyuso"] + label + div > label {position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.9);z-index:1;}
+/*
+input[id*="popup"] + label + div {display:none;}
+input[id*="popup"]:checked + label + div {display:block;}
+*/
+
+input[id*="juyuso"] + label + div {opacity:0;visibility:hidden;transition:all 0s;}
+input[id*="juyuso"]:checked + label + div {opacity:1;visibility:visible;}
+
+
+input[id*="juyuso"] + label:hover {cursor: pointer;display:inline-block;padding:20px;background:#a3daff;color:#ffffff; position: fixed; border-radius: 100%; left: 65%; top: 75%;  transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+input[id*="juyuso"] + label + div > div > label:hover {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#a3daff;border-radius:100%;z-index:999;}
+
+
+
+
+* {padding:0;margin:0;line-height:1;} /* 기본 브라우저 리셋 스타일 */
+    
+input[id*="popup1"] {display:none;}
+input[id*="popup1"] + label {cursor: pointer;display:inline-block;padding:20px;background:#0080ff;color:#ffffff; position: fixed; border-radius: 100%; left: 62%; top: 87%; transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+input[id*="popup1"] + label + div {position:fixed;top:0;left:0;width:100%;height:100%;z-index:100;}
+input[id*="popup1"] + label + div > div {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:900px;height:700px;background:#fff;z-index:2;}
+input[id*="popup1"] + label + div > div > label {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#03a6ff;border-radius:100%;z-index:999;}
+input[id*="popup1"] + label + div > label {position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.9);z-index:1;}
+/*
+input[id*="popup"] + label + div {display:none;}
+input[id*="popup"]:checked + label + div {display:block;}
+*/
+
+input[id*="popup1"] + label + div {opacity:0;visibility:hidden;transition:all 0s;}
+input[id*="popup1"]:checked + label + div {opacity:1;visibility:visible;}
+
+input[id*="popup1"] + label:hover {cursor: pointer;display:inline-block;padding:20px;background:#a3daff;color:#ffffff; position: fixed; border-radius: 100%; left: 62%; top: 87%;  transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+input[id*="popup1"] + label + div > div > label:hover {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#a3daff;border-radius:100%;z-index:999;}
+
+ /* input[id*="popup"] + label {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);} 예제파일 확인시 가운데 정렬 스타일 - 삭제 후 사용하세요 */
+ * {padding:0;margin:0;line-height:1;} /* 기본 브라우저 리셋 스타일 */
+		
+ input[id*="ex01"] {display:none;}
+ input[id*="ex01"] + label {cursor: pointer;display:inline-block;padding:20px;background:#0080ff;color:#ffffff; position: fixed; border-radius: 100%; left: 30%; top: 30%;  transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+ input[id*="ex01"] + label + div {position:fixed;top:0;left:0;width:100%;height:100%;z-index:100;}
+ input[id*="ex01"] + label + div > div {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:900px;height:700px;background:#fff;z-index:2;}
+ input[id*="ex01"] + label + div > div > label {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#03a6ff;border-radius:100%;z-index:999;}
+ input[id*="ex01"] + label + div > label {position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.9);z-index:1;}
+ /*
+ input[id*="popup"] + label + div {display:none;}
+ input[id*="popup"]:checked + label + div {display:block;}
+ */
+ 
+ input[id*="ex01"] + label + div {opacity:0;visibility:hidden;transition:all 0s;}
+ input[id*="ex01"]:checked + label + div {opacity:1;visibility:visible;}
+ 
+ input[id*="ex01"] + label:hover {cursor: pointer;display:inline-block;padding:20px;background:#a3daff;color:#ffffff; position: fixed; border-radius: 100%; left: 30%; top: 30%;  transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+ input[id*="ex01"] + label + div > div > label:hover {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#a3daff;border-radius:100%;z-index:999;}
+
+/* input[id*="popup"] + label {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);} 예제파일 확인시 가운데 정렬 스타일 - 삭제 후 사용하세요 */
+* {padding:0;margin:0;line-height:1;} /* 기본 브라우저 리셋 스타일 */
+		
+input[id*="ex02"] {display:none;}
+input[id*="ex02"] + label {cursor: pointer;display:inline-block;padding:20px;background:#0080ff;color:#ffffff; position: fixed; border-radius: 100%; left: 15%; top: 50%;  transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+input[id*="ex02"] + label + div {position:fixed;top:0;left:0;width:100%;height:100%;z-index:100;}
+input[id*="ex02"] + label + div > div {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:900px;height:700px;background:#fff;z-index:2;}
+input[id*="ex02"] + label + div > div > label {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#03a6ff;border-radius:100%;z-index:999;}
+input[id*="ex02"] + label + div > label {position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.9);z-index:1;}
+/*
+input[id*="popup"] + label + div {display:none;}
+input[id*="popup"]:checked + label + div {display:block;}
+*/
+    
+input[id*="ex02"] + label + div {opacity:0;visibility:hidden;transition:all 0s;}
+input[id*="ex02"]:checked + label + div {opacity:1;visibility:visible;}
+    
+input[id*="ex02"] + label:hover {cursor: pointer;display:inline-block;padding:20px;background:#a3daff;color:#ffffff; position: fixed; border-radius: 100%; left: 15%; top: 50%;  transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+input[id*="ex02"] + label + div > div > label:hover {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#a3daff;border-radius:100%;z-index:999;}
+
+
+/* input[id*="popup"] + label {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);} 예제파일 확인시 가운데 정렬 스타일 - 삭제 후 사용하세요 */
+* {padding:0;margin:0;line-height:1;} /* 기본 브라우저 리셋 스타일 */
+		
+input[id*="ex03"] {display:none;}
+input[id*="ex03"] + label {cursor: pointer;display:inline-block;padding:20px;background:#0080ff;color:#ffffff; position: fixed; border-radius: 100%; left: 27.5%; top: 50%;  transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+input[id*="ex03"] + label + div {position:fixed;top:0;left:0;width:100%;height:100%;z-index:100;}
+input[id*="ex03"] + label + div > div {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:900px;height:700px;background:#fff;z-index:2;}
+input[id*="ex03"] + label + div > div > label {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#03a6ff;border-radius:100%;z-index:999;}
+input[id*="ex03"] + label + div > label {position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.9);z-index:1;}
+/*
+input[id*="popup"] + label + div {display:none;}
+input[id*="popup"]:checked + label + div {display:block;}
+*/
+
+input[id*="ex03"] + label + div {opacity:0;visibility:hidden;transition:all 0s;}
+input[id*="ex03"]:checked + label + div {opacity:1;visibility:visible;}
+
+input[id*="ex03"] + label:hover {cursor: pointer;display:inline-block;padding:20px;background:#a3daff;color:#ffffff; position: fixed; border-radius: 100%; left: 27.5%; top: 50%;  transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+input[id*="ex03"] + label + div > div > label:hover {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#a3daff;border-radius:100%;z-index:999;}
+
+
+    /* input[id*="popup"] + label {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);} 예제파일 확인시 가운데 정렬 스타일 - 삭제 후 사용하세요 */
+    * {padding:0;margin:0;line-height:1;} /* 기본 브라우저 리셋 스타일 */
+		
+    input[id*="ex04"] {display:none;}
+    input[id*="ex04"] + label {cursor: pointer;display:inline-block;padding:20px;background:#0080ff;color:#ffffff; position: fixed; border-radius: 100%; left: 50%; top:94%;  transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+    input[id*="ex04"] + label + div {position:fixed;top:0;left:0;width:100%;height:100%;z-index:100;}
+    input[id*="ex04"] + label + div > div {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:900px;height:700px;background:#fff;z-index:2;}
+    input[id*="ex04"] + label + div > div > label {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#03a6ff;border-radius:100%;z-index:999;}
+    input[id*="ex04"] + label + div > label {position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.9);z-index:1;}
+    /*
+    input[id*="popup"] + label + div {display:none;}
+    input[id*="popup"]:checked + label + div {display:block;}
+    */
+    
+    input[id*="ex04"] + label + div {opacity:0;visibility:hidden;transition:all 0s;}
+    input[id*="ex04"]:checked + label + div {opacity:1;visibility:visible;}
+    
+    input[id*="ex04"] + label:hover {cursor: pointer;display:inline-block;padding:20px;background:#a3daff;color:#ffffff; position: fixed; border-radius: 100%; left: 50%; top: 94%;  transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+    input[id*="ex04"] + label + div > div > label:hover {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#a3daff;border-radius:100%;z-index:999;}
+
+
+
+/* input[id*="popup"] + label {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);} 예제파일 확인시 가운데 정렬 스타일 - 삭제 후 사용하세요 */
+* {padding:0;margin:0;line-height:1;} /* 기본 브라우저 리셋 스타일 */
+		
+input[id*="ex05"] {display:none;}
+input[id*="ex05"] + label {cursor: pointer;display:inline-block;padding:20px;background:#0080ff;color:#ffffff; position: fixed; border-radius: 100%; left: 70%; top: 30%;  transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+input[id*="ex05"] + label + div {position:fixed;top:0;left:0;width:100%;height:100%;z-index:100;}
+input[id*="ex05"] + label + div > div {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:900px;height:700px;background:#fff;z-index:2;}
+input[id*="ex05"] + label + div > div > label {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#03a6ff;border-radius:100%;z-index:999;}
+input[id*="ex05"] + label + div > label {position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.9);z-index:1;}
+/*
+input[id*="popup"] + label + div {display:none;}
+input[id*="popup"]:checked + label + div {display:block;}
+*/
+
+input[id*="ex05"] + label + div {opacity:0;visibility:hidden;transition:all 0s;}
+input[id*="ex05"]:checked + label + div {opacity:1;visibility:visible;}
+
+input[id*="ex05"] + label:hover {cursor: pointer;display:inline-block;padding:20px;background:#a3daff;color:#ffffff; position: fixed; border-radius: 100%; left: 70%; top: 30%;  transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+input[id*="ex05"] + label + div > div > label:hover {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#a3daff;border-radius:100%;z-index:999;}
+
+    /* input[id*="popup"] + label {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);} 예제파일 확인시 가운데 정렬 스타일 - 삭제 후 사용하세요 */
+    * {padding:0;margin:0;line-height:1;} /* 기본 브라우저 리셋 스타일 */
+		
+    input[id*="ex06"] {display:none;}
+    input[id*="ex06"] + label {cursor: pointer;display:inline-block;padding:20px;background:#0080ff;color:#ffffff; position: fixed; border-radius: 100%; left: 70%; top: 72.5%;  transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+    input[id*="ex06"] + label + div {position:fixed;top:0;left:0;width:100%;height:100%;z-index:100;}
+    input[id*="ex06"] + label + div > div {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:900px;height:700px;background:#fff;z-index:2;}
+    input[id*="ex06"] + label + div > div > label {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#03a6ff;border-radius:100%;z-index:999;}
+    input[id*="ex06"] + label + div > label {position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.9);z-index:1;}
+    /*
+    input[id*="popup"] + label + div {display:none;}
+    input[id*="popup"]:checked + label + div {display:block;}
+    */
+    
+    input[id*="ex06"] + label + div {opacity:0;visibility:hidden;transition:all 0s;}
+    input[id*="ex06"]:checked + label + div {opacity:1;visibility:visible;}
+    
+    input[id*="ex06"] + label:hover {cursor: pointer;display:inline-block;padding:20px;background:#a3daff;color:#ffffff; position: fixed; border-radius: 100%; left: 70%; top: 72.5%;  transform: translate(-50%, -50%); opacity: 0.9;font-family: 'Do Hyeon', sans-serif; font-size:20px;}
+    input[id*="ex06"] + label + div > div > label:hover {cursor: pointer;position:absolute;top:0%;right:0%;transform:translate(40%,-40%);padding:20px;background:#a3daff;border-radius:100%;z-index:999;}
